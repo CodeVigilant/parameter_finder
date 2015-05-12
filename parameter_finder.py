@@ -75,7 +75,7 @@ def recursive_list(folder,fld,target,proxy):
     
 
 def main(argv):
-    desc="""This program is used to  identify various parameters in php files which can then be fed to proxy services which can run automated scans"""
+    desc="""This program is part of code assisted pentesting efforts. It is used to  identify various parameters in php files which can then be fed to proxy services which can run automated scans"""
     epilog="""Credit (C) Anant Shrivastava http://anantshri.info"""
     parser = argparse.ArgumentParser(description=desc,epilog=epilog)
     parser.add_argument("--url",help="Provide Target URL",dest='target',required=False)
